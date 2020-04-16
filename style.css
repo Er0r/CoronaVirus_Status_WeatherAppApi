@@ -3,6 +3,12 @@ body {
   align-content: center;
 }
 
+.header {
+  font: italic small-caps bold 16px/2 cursive;
+  text-align: center;
+  background-color: blueviolet;
+}
+
 .country_code{
   width: 40%;
   height: 60px;
@@ -20,11 +26,39 @@ body {
 }
 
 .add__btn {
-  background-color: #4CAF50;
-  border: none;
-  color: white;
-  padding: 16px 32px;
-  text-decoration: none;
-  margin: 4px 2px;
-  cursor: pointer;
+  box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	background-color:#7892c2;
+	border-radius:10px;
+	border:1px solid #9ea1a8;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:19px;
+	padding:12px 37px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+}
+.add__btn:hover {
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	background-color:#476e9e;
+}
+.add__btn:active {
+	position:relative;
+	top:1px;
+}
+
+.rslt {
+  font: italic small-caps bold 16px/2 cursive;
+  text-align: center;
+  background-color: gold;
+}
+
+
+.rslt4 {
+  font: italic small-caps bold 16px/2 cursive;
+  text-align: center;
+  background-color: orangered;
+  margin-top: 10px;
 }
